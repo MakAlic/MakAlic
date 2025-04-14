@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>🧠 Memory Game</h1>
+    <a href="index.html" class="back-button">⏪ Nazad</a>
+  </div>
+  <div class="info-bar">
+    <span id="timer">⏱️ 0s</span>
+    <button id="restartBtn" class="restart-button">🔁 Restart</button>
+  </div>
+  
+  <div class="game-board" id="gameBoard"></div>
+  
+ 
+  <div class="end-screen" id="endScreen" style="display: none;">
+    <h2>🎉 Čestitamo!</h2>
+    <p>Završio si igru za <span id="finalTime"></span> sekundi!</p>
+    <a href="index.html" class="start-button">🔁 Igraj ponovo</a>
+  </div>
+  <div class="game-board" id="gameBoard"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
